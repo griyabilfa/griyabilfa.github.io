@@ -9,327 +9,410 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+      crossorigin="anonymous"
+    />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
-    <body id="home">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">Griyabilfa</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              <a class="nav-link" href="#about">Tentang Kami</a>
-              <a class="nav-link" href="#mahar">Mahar</a>
-              <a class="nav-link" href="#seserahan">Seserahan</a>
-              <a class="nav-link" href="#testimoni">Testimoni</a>
-              <a class="nav-link" href="#kontak">Kontak Kami</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!-- Akhir Navbar -->
-
-      <!-- Jumbotron -->
-      <section class="jumbotron text-center">
-        <img src="img/Griyabilfa.jpg" alt="Griyabilfa" class="rounded-circle img-thumbnail" />
-        <h1 class="display-4">Griyabilfa</h1>
-        <p class="lead fs-3">Jasa Seni Mahar & Seserahan</p>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#ffffff"
-            fill-opacity="1"
-            d="M0,96L30,106.7C60,117,120,139,180,160C240,181,300,203,360,186.7C420,171,480,117,540,90.7C600,64,660,64,720,74.7C780,85,840,107,900,106.7C960,107,1020,85,1080,85.3C1140,85,1200,107,1260,122.7C1320,139,1380,149,1410,154.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-          ></path>
-        </svg>
-      </section>
-      <!-- Akhir Jumbotron -->
-
-      <!-- About -->
-      <section id="about">
-        <div class="container">
-          <div class="row text-center mb-4">
-            <div class="col">
-              <h2>Tentang Kami</h2>
-            </div>
-          </div>
-          <div class="row justify-content-center fs-4 text-center">
-            <div class="col-md-4">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum saepe sint hic, natus ea veritatis dolores in nam veniam.</p>
-            </div>
-            <div class="col-md-4">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, temporibus fuga dolores dolorem neque adipisci a iste atque quaerat saepe similique porro facilis doloribus minima!</p>
-            </div>
-          </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#9370d8"
-            fill-opacity="1"
-            d="M0,128L40,117.3C80,107,160,85,240,80C320,75,400,85,480,117.3C560,149,640,203,720,213.3C800,224,880,192,960,165.3C1040,139,1120,117,1200,106.7C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg>
-      </section>
-      <!-- Akhir About -->
-
-      <!-- Mahar -->
-      <section id="mahar">
-        <div class="container">
-          <div class="row text-center mb-4">
-            <div class="col">
-              <h2>Mahar by Griyabilfa</h2>
-            </div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/mahar/1.jpg" class="card-img-top" alt="1" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/mahar/2.jpg" class="card-img-top" alt="2" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/mahar/3.jpg" class="card-img-top" alt="3" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/mahar/4.jpg" class="card-img-top" alt="4" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/mahar/5.jpg" class="card-img-top" alt="5" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/mahar/6.jpg" class="card-img-top" alt="6" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#ffffff"
-            fill-opacity="1"
-            d="M0,64L40,58.7C80,53,160,43,240,74.7C320,107,400,181,480,197.3C560,213,640,171,720,133.3C800,96,880,64,960,85.3C1040,107,1120,181,1200,208C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg>
-      </section>
-      <!-- Akhir Mahar -->
-
-      <!-- Seserahan -->
-      <section id="seserahan">
-        <div class="container">
-          <div class="row text-center mb-4">
-            <div class="col">
-              <h2>Seserahan by Griyabilfa</h2>
-            </div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/seserahan/1.jpg" class="card-img-top" alt="1" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/seserahan/2.jpg" class="card-img-top" alt="2" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/seserahan/3.jpg" class="card-img-top" alt="3" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/seserahan/4.jpg" class="card-img-top" alt="4" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/seserahan/5.jpg" class="card-img-top" alt="5" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/seserahan/6.jpg" class="card-img-top" alt="6" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#9370d8"
-            fill-opacity="1"
-            d="M0,160L40,149.3C80,139,160,117,240,90.7C320,64,400,32,480,48C560,64,640,128,720,170.7C800,213,880,235,960,213.3C1040,192,1120,128,1200,106.7C1280,85,1360,107,1400,117.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg>
-      </section>
-      <!-- Akhir Seserahan -->
-
-      <!-- Testimoni -->
-      <section id="testimoni">
-        <div class="container">
-          <div class="row text-center mb-4">
-            <div class="col">
-              <h2>Testimoni</h2>
-            </div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/testimoni/1.jpg" class="card-img-top" alt="1" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/testimoni/2.jpg" class="card-img-top" alt="2" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/testimoni/3.jpg" class="card-img-top" alt="3" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/testimoni/4.jpg" class="card-img-top" alt="4" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/testimoni/5.jpg" class="card-img-top" alt="5" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="card">
-                <img src="img/testimoni/6.jpg" class="card-img-top" alt="6" />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#fff"
-            fill-opacity="1"
-            d="M0,160L40,149.3C80,139,160,117,240,90.7C320,64,400,32,480,48C560,64,640,128,720,170.7C800,213,880,235,960,213.3C1040,192,1120,128,1200,106.7C1280,85,1360,107,1400,117.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-          ></path>
-        </svg>
-      </section>
-      <!-- Akhir Testimoni -->
-
-      <!-- Kontak -->
-      <section id="kontak">
-        <div class="container">
-          <div class="row text-center mb-4">
-            <div class="col">
-              <h2>Hubungi Kami</h2>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-md-8">
-              <form>
-                <div class="mb-3">
-                  <label for="name" class="form-label">Nama Lengkap</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="name" />
-                </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="email" />
-                </div>
-                <div class="mb-3">
-                  <label for="pesan" class="form-label">Pesan</label>
-                  <textarea class="form-control" id="pesa" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Kirim</button>
-              </form>
-            </div>
-          </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#9370d8"
-            fill-opacity="1"
-            d="M0,128L48,128C96,128,192,128,288,154.7C384,181,480,235,576,224C672,213,768,139,864,128C960,117,1056,171,1152,192C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          ></path>
-        </svg>
-      </section>
-      <!-- Akhir Kontak -->
-
-      <!-- Footer -->
-      <footer class="text-center">
-        <p>Created By <a href="https://www.instagram.com/griyabilfa.cilongok/">Griyabilfa</a></p>
-      </footer>
-      <!-- Akhir Footer -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    </body>
-
     <title>Griyabilfa | Jasa Seni Mahar & Seserahan</title>
   </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Griyabilfa</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mahar">Mahar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#seserahan">Seserahan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimoni">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/Griyabilfa.jpg" alt="Griyabilfa" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Griyabilfa</h1>
+      <p class="lead fs-3">Jasa Seni Mahar & Seserahan</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="10"
+          d="M0,96L30,106.7C60,117,120,139,180,160C240,181,300,203,360,186.7C420,171,480,117,540,90.7C600,64,660,64,720,74.7C780,85,840,107,900,106.7C960,107,1020,85,1080,85.3C1140,85,1200,107,1260,122.7C1320,139,1380,149,1410,154.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col" data-aos="fade-down"></div>
+            <h2>Tentang Kami</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-4 text-center">
+          <div class="col-md-4" data-aos="fade-right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum saepe sint hic, natus ea veritatis dolores in nam veniam.</p>
+          </div>
+          <div class="col-md-4" data-aos="fade-right">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, temporibus fuga dolores dolorem neque adipisci a iste atque quaerat saepe similique porro facilis doloribus minima!</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#85865F"
+          fill-opacity="1"
+          d="M0,128L40,117.3C80,107,160,85,240,80C320,75,400,85,480,117.3C560,149,640,203,720,213.3C800,224,880,192,960,165.3C1040,139,1120,117,1200,106.7C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Mahar -->
+    <section id="mahar">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Mahar by Griyabilfa</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3" data-aos="flip-right">
+            <div class="card">
+              <img src="img/mahar/1.jpg" class="card-img-top" alt="1" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="img/mahar/2.jpg" class="card-img-top" alt="2" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="1000">
+            <div class="card">
+              <img src="img/mahar/3.jpg" class="card-img-top" alt="3" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="img/mahar/4.jpg" class="card-img-top" alt="4" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="1000">
+            <div class="card">
+              <img src="img/mahar/5.jpg" class="card-img-top" alt="5" />
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="img/mahar/6.jpg" class="card-img-top" alt="6" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#CEB793"
+          fill-opacity="1"
+          d="M0,64L40,58.7C80,53,160,43,240,74.7C320,107,400,181,480,197.3C560,213,640,171,720,133.3C800,96,880,64,960,85.3C1040,107,1120,181,1200,208C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Mahar -->
+
+    <!-- Seserahan -->
+    <section id="seserahan">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Seserahan by Griyabilfa</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="seserahan-box">
+              <h4 class="seserahan-name">Tas & Sepatu</h4>
+              <img src="img/seserahan/1.jpg" alt="Tas & Sepatu" class="seserahan-img" />
+              <a href="#" class="btn btn-light seserahan-detail-button">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="seserahan-box">
+              <h4 class="seserahan-name">Alat Mandi</h4>
+              <img src="img/seserahan/2.jpg" alt="Alat Mandi" class="seserahan-img" />
+              <a href="#" class="btn btn-light seserahan-detail-button">Selengkapnya</a>
+            </div>
+          </div> 
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="seserahan-box">
+              <h4 class="seserahan-name">Baju</h4>
+              <img src="img/seserahan/3.jpg" alt="Baju" class="seserahan-img" />
+              <a href="#" class="btn btn-light seserahan-detail-button">Selengkapnya</a>
+            </div>
+          </div> 
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="seserahan-box">
+              <h4 class="seserahan-name">Sepatu</h4>
+              <img src="img/seserahan/4.jpg" alt="Sepatu" class="seserahan-img" />
+              <a href="#" class="btn btn-light seserahan-detail-button">Selengkapnya</a>
+            </div>
+          </div> 
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="seserahan-box">
+              <h4 class="seserahan-name">Tas</h4>
+              <img src="img/seserahan/5.jpg" alt="Tas" class="seserahan-img" />
+              <a href="#" class="btn btn-light seserahan-detail-button">Selengkapnya</a>
+            </div>
+          </div> 
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="seserahan-box">
+              <h4 class="seserahan-name">Keranjang</h4>
+              <img src="img/seserahan/6.jpg" alt="Keranjang" class="seserahan-img" />
+              <a href="#" class="btn btn-light seserahan-detail-button">Selengkapnya</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#8A584C" fill-opacity="1" d="M0,96L60,117.3C120,139,240,181,360,208C480,235,600,245,720,245.3C840,245,960,235,1080,234.7C1200,235,1320,245,1380,250.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    </section>
+    <!-- Akhir Seserahan -->
+
+    <!-- Testimoni -->
+    <section id="testimoni">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2>Testimoni</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3" data-aos="flip-right">
+            <div class="card">
+              <img src="img/testimoni/1.jpg" class="card-img-top" alt="1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="img/testimoni/2.jpg" class="card-img-top" alt="2" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="1000">
+            <div class="card">
+              <img src="img/testimoni/3.jpg" class="card-img-top" alt="3" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="img/testimoni/4.jpg" class="card-img-top" alt="4" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="1000">
+            <div class="card">
+              <img src="img/testimoni/5.jpg" class="card-img-top" alt="5" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="flip-right" data-aos-delay="500">
+            <div class="card">
+              <img src="img/testimoni/6.jpg" class="card-img-top" alt="6" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,64L40,58.7C80,53,160,43,240,74.7C320,107,400,181,480,197.3C560,213,640,171,720,133.3C800,96,880,64,960,85.3C1040,107,1120,181,1200,208C1280,235,1360,213,1400,202.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Testimoni -->
+
+    <!-- Kontak -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Hubungi Kami</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="griyabilfa-contact-form">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+          
+            <div class="col-md-9 ">
+              <div class="iframe-container ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15826.386513493175!2d109.13002!3d-7.3990124!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb15118c396496c9!2sGriya%20Bilfa!5e0!3m2!1sen!2sid!4v1639444167704!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#4F583D"
+          fill-opacity="1"
+          d="M0,128L48,128C96,128,192,128,288,154.7C384,181,480,235,576,224C672,213,768,139,864,128C960,117,1056,171,1152,192C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Kontak -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <p>Created By <a href="https://www.instagram.com/griyabilfa.cilongok/">Griyabilfa</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.from(".img-thumbnail", { duration: 2, rotationX: 360 });
+      gsap.from(".navbar", { duration: 1.5, opacity: 0, y: "-100%", ease: "bounce" });
+      gsap.from(".display-4", { delay: 1, duration: 1, opacity: 0, x: "-10%" });
+
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { delay: 1.5, duration: 2, text: "Jasa Seni Mahar & Seserahan" });
+
+      const galleryImages = document.querySelectorAll(".gallery-img");
+      const delayTimes = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450];
+
+      function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var temp = array[i];
+          array[i] = array[j];
+          array[j] = temp;
+        }
+        return array;
+      }
+      const newDelay = shuffleArray(delayTimes);
+      galleryImages.forEach((img, i) => {
+        img.dataset.aos = "fade-up";
+        img.dataset.aosDelay = i * 50 + "";
+        // img.dataset.aosDelay = newDelay[i];
+      });
+
+      AOS.init({
+        once: true,
+        duration: 3000,
+      });
+    </script>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbzjWwvjJihKz3-24SxEnHM5XFjNPgQd_dv3uD_fgjLSp_4AAXsC6IC4C_ECvWyLkGsuBg/exec";
+      const form = document.forms["griyabilfa-contact-form"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            // tampilkan alert
+            myAlert.classList.toggle("d-none");
+            // reset formnya
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".seserahan-box"), {
+        max: 35,
+        speed: 1000,
+        glare: true,
+      });
+    </script>
+  </body>
 </html>

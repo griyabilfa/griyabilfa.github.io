@@ -1,39 +1,51 @@
 .navbar {
-  background-color: #9370d8;
+  background-color: #8fa6ac;
 }
 
 .jumbotron {
-  color: #fff;
+  color: #8a584c;
   padding-top: 6rem;
-  background-color: #9370d8;
+  background-color: #f5eacf;
 }
 
 .jumbotron img {
   width: 200px;
 }
 
-#mahar h2,
-#testimoni h2 {
-  color: #fff;
+section {
+  padding-top: 5rem;
 }
 
-#mahar,
+#mahar {
+  padding-top: 2rem;
+  background-color: #85865f;
+}
+
+#mahar h2 {
+  color: #f5eacf;
+}
+
+#seserahan h2 {
+  color: #4f583d;
+}
+
 #testimoni {
   padding-top: 2rem;
-  background-color: #9370d8;
-}
-
-#seserahan {
-  padding-top: 2rem;
+  background-color: #8a584c;
 }
 
 #kontak button {
-  background-color: #9370d8;
-  border-color: #9370d8;
+  background-color: #8fa6ac;
+  border-color: #8fa6ac;
+}
+
+#kontak button:hover {
+  background-color: #ceb793;
+  border-color: #ceb793;
 }
 
 footer {
-  background-color: #9370d8;
+  background-color: #4f583d;
   padding-bottom: 8px;
 }
 
@@ -45,4 +57,118 @@ footer a,
 a:hover {
   color: #fff;
   font-weight: bold;
+}
+
+/* Testimoni Section */
+#seserahan {
+  padding-top: 2rem;
+  background-color: #ceb793;
+}
+
+.seserahan-box {
+  position: relative;
+  background-color: #85865f;
+  border-radius: 20px;
+  height: 600px;
+  transform-style: preserve-3d;
+}
+
+.seserahan-box::before {
+  content: "GRIYA";
+  position: absolute;
+  color: #f5eacf;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 55px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.seserahan-box:hover::before {
+  opacity: 0.2;
+}
+
+.seserahan-box::after {
+  content: "BILFA";
+  position: absolute;
+  color: #f5eacf;
+  font-size: 2em;
+  font-weight: bold;
+  font-style: italic;
+  top: 495px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.seserahan-box:hover::after {
+  opacity: 0.2;
+}
+
+.seserahan-name {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #ceb793;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.seserahan-box:hover .seserahan-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.seserahan-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.seserahan-box:hover .seserahan-detail-button {
+  opacity: 1;
+  bottom: 20px;
+}
+
+.seserahan-img {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 80px);
+  max-width: 350px;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.seserahan-box:hover .seserahan-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1);
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > * {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
